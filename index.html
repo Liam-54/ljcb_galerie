@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Fotogalerie</title>
+    <!-- Bootstrap CSS (LZ29) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation (LZ13) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Fotogalerie</a>
+        </div>
+    </nav>
+
+    <!-- Main Gallery Section (LZ20-21) -->
+    <main class="container my-5">
+        <h1 class="text-center mb-5">Willkommen in meiner Fotogalerie</h1>
+        
+        <div class="row g-4">
+            <!-- Paris Gallery Card -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <a href="paris.html" class="text-decoration-none">
+                    <div class="card h-100">
+                        <img src="https://source.unsplash.com/800x600/?paris" class="card-img-top img-fluid" alt="Paris">
+                        <div class="card-body">
+                            <h5 class="card-title">Paris</h5>
+                            <p class="card-text">Entdecken Sie die romantische Stadt der Lichter</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- London Gallery Card -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <a href="london.html" class="text-decoration-none">
+                    <div class="card h-100">
+                        <img src="https://source.unsplash.com/800x600/?london" class="card-img-top img-fluid" alt="London">
+                        <div class="card-body">
+                            <h5 class="card-title">London</h5>
+                            <p class="card-text">Erkunden Sie die britische Metropole</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- New York Gallery Card -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <a href="newyork.html" class="text-decoration-none">
+                    <div class="card h-100">
+                        <img src="https://source.unsplash.com/800x600/?newyork" class="card-img-top img-fluid" alt="New York">
+                        <div class="card-body">
+                            <h5 class="card-title">New York</h5>
+                            <p class="card-text">Tauchen Sie ein in den Big Apple</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>    </main>    <!-- Footer with Video (LZ35-LZ37) -->
+    <footer class="footer mt-5">
+        <div class="video-container">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/uSuEdw6HAFE?autoplay=1&mute=1&loop=1&playlist=uSuEdw6HAFE" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </footer>
+</body>
+</html>
